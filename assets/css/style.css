@@ -1495,7 +1495,7 @@ section {
 }
 
 #footer .copyright {
-  float: left;
+  text-align: center;
   color: #0f394c;
 }
 
