@@ -748,11 +748,6 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #ffc107;
-}
-
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
@@ -847,18 +842,6 @@ section {
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #e7f1ff;
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -1529,4 +1512,21 @@ section {
 
 .whatsapp-icon {
   margin-top: 13px;
+}
+/* Estilos para la barra de información */
+.portfolio-bar {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.portfolio-bar h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.portfolio-bar p {
+  font-size: 14px;
+  margin: 0;
+  color: #777;
 }
